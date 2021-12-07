@@ -1,0 +1,79 @@
+:root {
+  --text: #99a32a;
+  --bg: #111;
+  --btn-bg: #ade48e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text);
+  background: linear-gradient(55deg, #124d1f, #0c2199);
+  font-family: "Nerko One", cursive;
+}
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#board {
+  width: 60vw;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 100px;
+  margin-top: 10px;
+}
+
+.box {
+  height: 20vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text);
+}
+
+#restart {
+  padding: 10px 20px;
+  background-color: var(--btn-bg);
+  border: none;
+  border-radius: 20px;
+  color: var(--bg);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+#restart:hover{
+  background: linear-gradient(55deg, #3da754, #1b2a80);
+}
+.footer{
+  text-align: center;
+  background-color: oldlace;
+  color: rgb(24, 0, 82);
+  padding-bottom: 0px;
+  margin-top: 20px;
+}
+.footer:hover{
+  background-color: rgb(30, 3, 61);
+  color: powderblue;
+}
+.footer:a{
+background-color: rgb(150, 117, 187);
+color: powderblue;
+}
